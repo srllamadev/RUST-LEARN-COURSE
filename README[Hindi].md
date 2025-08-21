@@ -26,7 +26,7 @@ cargo --version
 
 ```bash
 cargo a_01_new hello_world
-cd hello_world
+cd a_01_hello_world
 ```
 
 यह संरचना बनाता है:
