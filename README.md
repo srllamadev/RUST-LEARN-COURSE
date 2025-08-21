@@ -68,11 +68,11 @@ To share it as an executable:
 cargo build --release
 ```
 
-The binary will be generated at `target/release/hello_world` (or `hello_world.exe` on Windows). Run it with:
+The binary will be generated at `target/release/a_01_hello_world` (or `hello_world.exe` on Windows). Run it with:
 
 ```bash
 # Linux/macOS
-./target/release/hello_world
+./target/release/a_01_hello_world
 
 # Windows
 .\target\release\a_01_hello_world.exe
