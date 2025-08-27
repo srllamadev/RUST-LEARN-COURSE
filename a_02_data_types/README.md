@@ -27,7 +27,7 @@ Try it
 
 Run the example from the project root:
 
-```sh
+```bash
 cd a_02_data_types
 cargo run
 ```
