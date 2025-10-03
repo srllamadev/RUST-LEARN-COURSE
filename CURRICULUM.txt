@@ -1,0 +1,578 @@
+# RUST LEARNING COURSE CURRICULUM
+# PLAN DE ESTUDIOS DEL CURSO DE RUST
+
+==============================================================================
+                          RUST COURSE ROADMAP / HOJA DE RUTA
+==============================================================================
+
+This document outlines a comprehensive curriculum for learning Rust programming
+language from beginner to advanced level, organized in a logical progression.
+
+Este documento describe un plan de estudios completo para aprender el lenguaje
+de programación Rust desde nivel principiante hasta avanzado, organizado en
+una progresión lógica.
+
+==============================================================================
+                             PART 1: FUNDAMENTALS
+                            PARTE 1: FUNDAMENTOS
+==============================================================================
+
+1. GETTING STARTED / COMENZANDO
+   --------------------------------
+   EN: Setting up Rust environment, Hello World, Cargo basics
+   ES: Configuración del entorno Rust, Hola Mundo, conceptos básicos de Cargo
+   
+   Topics / Temas:
+   - Installing Rust / Instalación de Rust
+   - Cargo: package manager / Cargo: gestor de paquetes
+   - Project structure / Estructura de proyectos
+   - Hello World program / Programa Hola Mundo
+   - Basic compilation / Compilación básica
+
+2. DATA TYPES / TIPOS DE DATOS
+   -----------------------------
+   EN: Scalar and compound types, type annotations
+   ES: Tipos escalares y compuestos, anotaciones de tipo
+   
+   Topics / Temas:
+   - Scalar types: integers, floats, booleans, chars / Tipos escalares
+   - Compound types: tuples, arrays / Tipos compuestos
+   - Type inference / Inferencia de tipos
+   - Type annotations / Anotaciones de tipo
+   - Constants and immutability / Constantes e inmutabilidad
+
+3. VARIABLES AND MUTABILITY / VARIABLES Y MUTABILIDAD
+   ---------------------------------------------------
+   EN: Variables, mutability, shadowing, constants
+   ES: Variables, mutabilidad, sombreado, constantes
+   
+   Topics / Temas:
+   - Variable declaration / Declaración de variables
+   - Mutability with mut keyword / Mutabilidad con palabra clave mut
+   - Variable shadowing / Sombreado de variables
+   - Constants vs variables / Constantes vs variables
+   - Scope and lifetime basics / Conceptos básicos de alcance y tiempo de vida
+
+4. FUNCTIONS / FUNCIONES
+   -----------------------
+   EN: Function definition, parameters, return values
+   ES: Definición de funciones, parámetros, valores de retorno
+   
+   Topics / Temas:
+   - Function syntax / Sintaxis de funciones
+   - Parameters and arguments / Parámetros y argumentos
+   - Return values / Valores de retorno
+   - Expression vs statements / Expresiones vs declaraciones
+   - Function scope / Alcance de funciones
+
+5. CONTROL FLOW / FLUJO DE CONTROL
+   ---------------------------------
+   EN: Conditionals, loops, pattern matching basics
+   ES: Condicionales, bucles, conceptos básicos de coincidencia de patrones
+   
+   Topics / Temas:
+   - if/else expressions / Expresiones if/else
+   - loop, while, for loops / Bucles loop, while, for
+   - break and continue / break y continue
+   - Basic pattern matching / Coincidencia de patrones básica
+
+==============================================================================
+                           PART 2: OWNERSHIP SYSTEM
+                          PARTE 2: SISTEMA DE PROPIEDAD
+==============================================================================
+
+6. OWNERSHIP / PROPIEDAD
+   ----------------------
+   EN: Rust's ownership model, memory safety
+   ES: Modelo de propiedad de Rust, seguridad de memoria
+   
+   Topics / Temas:
+   - Ownership rules / Reglas de propiedad
+   - Move semantics / Semántica de movimiento
+   - Copy vs Move types / Tipos Copy vs Move
+   - Drop trait / Trait Drop
+   - Memory safety without garbage collection / Seguridad de memoria sin recolección de basura
+
+7. REFERENCES AND BORROWING / REFERENCIAS Y PRÉSTAMOS
+   ---------------------------------------------------
+   EN: Borrowing, mutable/immutable references, reference rules
+   ES: Préstamos, referencias mutables/inmutables, reglas de referencias
+   
+   Topics / Temas:
+   - Borrowing concept / Concepto de préstamo
+   - Immutable references / Referencias inmutables
+   - Mutable references / Referencias mutables
+   - Reference rules and restrictions / Reglas y restricciones de referencias
+   - Dangling references prevention / Prevención de referencias colgantes
+
+8. SLICES / REBANADAS
+   -------------------
+   EN: String slices, array slices, slice syntax
+   ES: Rebanadas de cadenas, rebanadas de arrays, sintaxis de rebanadas
+   
+   Topics / Temas:
+   - String slices (&str) / Rebanadas de cadenas
+   - Array slices / Rebanadas de arrays
+   - Slice syntax and indexing / Sintaxis e indexación de rebanadas
+   - Slice as function parameters / Rebanadas como parámetros de función
+
+==============================================================================
+                        PART 3: COMPOUND DATA TYPES
+                       PARTE 3: TIPOS DE DATOS COMPUESTOS
+==============================================================================
+
+9. STRUCTS / ESTRUCTURAS
+   -----------------------
+   EN: Struct definition, instantiation, methods
+   ES: Definición de estructuras, instanciación, métodos
+   
+   Topics / Temas:
+   - Struct definition and syntax / Definición y sintaxis de estructuras
+   - Creating instances / Creación de instancias
+   - Field access / Acceso a campos
+   - Tuple structs / Estructuras tupla
+   - Unit structs / Estructuras unitarias
+
+10. METHODS AND ASSOCIATED FUNCTIONS / MÉTODOS Y FUNCIONES ASOCIADAS
+    ----------------------------------------------------------------
+    EN: impl blocks, self parameter, associated functions
+    ES: Bloques impl, parámetro self, funciones asociadas
+    
+    Topics / Temas:
+    - Method syntax / Sintaxis de métodos
+    - self, &self, &mut self / self, &self, &mut self
+    - Associated functions / Funciones asociadas
+    - Multiple impl blocks / Múltiples bloques impl
+
+11. ENUMS AND PATTERN MATCHING / ENUMS Y COINCIDENCIA DE PATRONES
+    -------------------------------------------------------------
+    EN: Enum definition, match expressions, Option and Result
+    ES: Definición de enums, expresiones match, Option y Result
+    
+    Topics / Temas:
+    - Enum definition and variants / Definición de enums y variantes
+    - match expressions / Expresiones match
+    - if let syntax / Sintaxis if let
+    - Option<T> enum / Enum Option<T>
+    - Result<T, E> enum / Enum Result<T, E>
+
+==============================================================================
+                           PART 4: MODULES AND PACKAGES
+                          PARTE 4: MÓDULOS Y PAQUETES
+==============================================================================
+
+12. MODULES / MÓDULOS
+    ------------------
+    EN: Module system, visibility, use keyword
+    ES: Sistema de módulos, visibilidad, palabra clave use
+    
+    Topics / Temas:
+    - Module definition / Definición de módulos
+    - Module tree / Árbol de módulos
+    - Paths and visibility / Rutas y visibilidad
+    - use keyword / Palabra clave use
+    - pub keyword / Palabra clave pub
+
+13. PACKAGES AND CRATES / PAQUETES Y CRATES
+    ------------------------------------------
+    EN: Cargo.toml, dependencies, workspaces
+    ES: Cargo.toml, dependencias, espacios de trabajo
+    
+    Topics / Temas:
+    - Package vs crate / Paquete vs crate
+    - Cargo.toml configuration / Configuración de Cargo.toml
+    - External dependencies / Dependencias externas
+    - Workspaces / Espacios de trabajo
+    - Publishing crates / Publicación de crates
+
+==============================================================================
+                          PART 5: COLLECTIONS
+                         PARTE 5: COLECCIONES
+==============================================================================
+
+14. VECTORS / VECTORES
+    -------------------
+    EN: Vec<T>, vector operations, iteration
+    ES: Vec<T>, operaciones de vectores, iteración
+    
+    Topics / Temas:
+    - Creating vectors / Creación de vectores
+    - Vector methods / Métodos de vectores
+    - Indexing and accessing elements / Indexación y acceso a elementos
+    - Iterating over vectors / Iteración sobre vectores
+
+15. STRINGS / CADENAS
+    ------------------
+    EN: String vs &str, string manipulation, UTF-8
+    ES: String vs &str, manipulación de cadenas, UTF-8
+    
+    Topics / Temas:
+    - String vs &str differences / Diferencias entre String y &str
+    - String creation and manipulation / Creación y manipulación de cadenas
+    - UTF-8 encoding / Codificación UTF-8
+    - String slicing / Rebanado de cadenas
+
+16. HASH MAPS / MAPAS HASH
+    -----------------------
+    EN: HashMap<K, V>, key-value storage, iteration
+    ES: HashMap<K, V>, almacenamiento clave-valor, iteración
+    
+    Topics / Temas:
+    - Creating hash maps / Creación de mapas hash
+    - Inserting and accessing values / Inserción y acceso a valores
+    - Updating values / Actualización de valores
+    - Iterating over hash maps / Iteración sobre mapas hash
+
+==============================================================================
+                         PART 6: ERROR HANDLING
+                        PARTE 6: MANEJO DE ERRORES
+==============================================================================
+
+17. RECOVERABLE ERRORS / ERRORES RECUPERABLES
+    -------------------------------------------
+    EN: Result<T, E>, error propagation, ? operator
+    ES: Result<T, E>, propagación de errores, operador ?
+    
+    Topics / Temas:
+    - Result enum in detail / Enum Result en detalle
+    - Error handling patterns / Patrones de manejo de errores
+    - Error propagation / Propagación de errores
+    - ? operator / Operador ?
+    - Custom error types / Tipos de error personalizados
+
+18. UNRECOVERABLE ERRORS / ERRORES IRRECUPERABLES
+    ----------------------------------------------
+    EN: panic! macro, unwrap, expect
+    ES: Macro panic!, unwrap, expect
+    
+    Topics / Temas:
+    - panic! macro / Macro panic!
+    - unwrap and expect methods / Métodos unwrap y expect
+    - Setting panic behavior / Configuración del comportamiento de pánico
+    - When to panic / Cuándo usar panic
+
+==============================================================================
+                            PART 7: GENERICS
+                           PARTE 7: GENÉRICOS
+==============================================================================
+
+19. GENERIC TYPES / TIPOS GENÉRICOS
+    --------------------------------
+    EN: Generic functions, structs, enums
+    ES: Funciones genéricas, estructuras, enums
+    
+    Topics / Temas:
+    - Generic function definitions / Definiciones de funciones genéricas
+    - Generic structs / Estructuras genéricas
+    - Generic enums / Enums genéricos
+    - Type parameters / Parámetros de tipo
+
+20. TRAITS / TRAITS
+    ----------------
+    EN: Trait definition, implementation, default implementations
+    ES: Definición de traits, implementación, implementaciones por defecto
+    
+    Topics / Temas:
+    - Defining traits / Definición de traits
+    - Implementing traits / Implementación de traits
+    - Default implementations / Implementaciones por defecto
+    - Trait bounds / Límites de traits
+    - Trait objects / Objetos trait
+
+21. LIFETIMES / TIEMPOS DE VIDA
+    ----------------------------
+    EN: Lifetime annotations, lifetime parameters, static lifetime
+    ES: Anotaciones de tiempo de vida, parámetros de tiempo de vida
+    
+    Topics / Temas:
+    - Lifetime concept / Concepto de tiempo de vida
+    - Lifetime annotations / Anotaciones de tiempo de vida
+    - Lifetime parameters in functions / Parámetros de tiempo de vida en funciones
+    - Lifetime in structs / Tiempo de vida en estructuras
+    - Static lifetime / Tiempo de vida estático
+
+==============================================================================
+                           PART 8: TESTING
+                          PARTE 8: PRUEBAS
+==============================================================================
+
+22. UNIT TESTS / PRUEBAS UNITARIAS
+    -------------------------------
+    EN: #[test] attribute, assertions, test organization
+    ES: Atributo #[test], aserciones, organización de pruebas
+    
+    Topics / Temas:
+    - Writing test functions / Escritura de funciones de prueba
+    - Assertion macros / Macros de aserción
+    - Running tests / Ejecución de pruebas
+    - Test organization / Organización de pruebas
+
+23. INTEGRATION TESTS / PRUEBAS DE INTEGRACIÓN
+    -------------------------------------------
+    EN: tests directory, testing crates as dependencies
+    ES: Directorio tests, pruebas de crates como dependencias
+    
+    Topics / Temas:
+    - Integration test setup / Configuración de pruebas de integración
+    - tests directory structure / Estructura del directorio tests
+    - Testing public API / Pruebas de API pública
+
+==============================================================================
+                        PART 9: ITERATORS AND CLOSURES
+                       PARTE 9: ITERADORES Y CLOSURES
+==============================================================================
+
+24. CLOSURES / CLOSURES
+    --------------------
+    EN: Closure syntax, capturing environment, Fn traits
+    ES: Sintaxis de closures, captura de entorno, traits Fn
+    
+    Topics / Temas:
+    - Closure syntax / Sintaxis de closures
+    - Capturing environment / Captura de entorno
+    - Fn, FnMut, FnOnce traits / Traits Fn, FnMut, FnOnce
+    - move keyword / Palabra clave move
+
+25. ITERATORS / ITERADORES
+    -----------------------
+    EN: Iterator trait, iterator adaptors, lazy evaluation
+    ES: Trait Iterator, adaptadores de iterador, evaluación perezosa
+    
+    Topics / Temas:
+    - Iterator trait / Trait Iterator
+    - Creating iterators / Creación de iteradores
+    - Iterator adaptors / Adaptadores de iterador
+    - Consuming adaptors / Adaptadores de consumo
+    - for loops and iterators / Bucles for e iteradores
+
+==============================================================================
+                          PART 10: SMART POINTERS
+                         PARTE 10: PUNTEROS INTELIGENTES
+==============================================================================
+
+26. BOX<T> / BOX<T>
+    ----------------
+    EN: Heap allocation, recursive types
+    ES: Asignación en heap, tipos recursivos
+    
+    Topics / Temas:
+    - Box<T> for heap allocation / Box<T> para asignación en heap
+    - Recursive data structures / Estructuras de datos recursivas
+    - Deref trait / Trait Deref
+
+27. RC<T> AND REFCELL<T> / RC<T> Y REFCELL<T>
+    ------------------------------------------
+    EN: Reference counting, interior mutability
+    ES: Conteo de referencias, mutabilidad interior
+    
+    Topics / Temas:
+    - Rc<T> reference counting / Conteo de referencias Rc<T>
+    - RefCell<T> interior mutability / Mutabilidad interior RefCell<T>
+    - Combining Rc<T> and RefCell<T> / Combinación de Rc<T> y RefCell<T>
+
+==============================================================================
+                        PART 11: CONCURRENCY
+                       PARTE 11: CONCURRENCIA
+==============================================================================
+
+28. THREADS / HILOS
+    ----------------
+    EN: Creating threads, thread::spawn, join handles
+    ES: Creación de hilos, thread::spawn, manejadores join
+    
+    Topics / Temas:
+    - Creating threads / Creación de hilos
+    - thread::spawn function / Función thread::spawn
+    - JoinHandle / JoinHandle
+    - Moving data between threads / Movimiento de datos entre hilos
+
+29. MESSAGE PASSING / PASO DE MENSAJES
+    -----------------------------------
+    EN: Channels, mpsc, Send and Sync traits
+    ES: Canales, mpsc, traits Send y Sync
+    
+    Topics / Temas:
+    - Channel communication / Comunicación por canales
+    - mpsc (multiple producer, single consumer) / mpsc
+    - Send and Sync traits / Traits Send y Sync
+    - Thread safety / Seguridad de hilos
+
+30. SHARED STATE / ESTADO COMPARTIDO
+    ---------------------------------
+    EN: Mutex, Arc, atomic types
+    ES: Mutex, Arc, tipos atómicos
+    
+    Topics / Temas:
+    - Mutex<T> for mutual exclusion / Mutex<T> para exclusión mutua
+    - Arc<T> for atomic reference counting / Arc<T> para conteo atómico
+    - Atomic types / Tipos atómicos
+    - Deadlock prevention / Prevención de interbloqueos
+
+==============================================================================
+                         PART 12: ADVANCED FEATURES
+                        PARTE 12: CARACTERÍSTICAS AVANZADAS
+==============================================================================
+
+31. UNSAFE RUST / RUST INSEGURO
+    ----------------------------
+    EN: unsafe keyword, raw pointers, unsafe functions
+    ES: Palabra clave unsafe, punteros raw, funciones unsafe
+    
+    Topics / Temas:
+    - unsafe superpowers / Superpoderes unsafe
+    - Raw pointers / Punteros raw
+    - Unsafe functions and methods / Funciones y métodos unsafe
+    - FFI (Foreign Function Interface) / FFI
+
+32. ADVANCED TRAITS / TRAITS AVANZADOS
+    -----------------------------------
+    EN: Associated types, operator overloading, supertraits
+    ES: Tipos asociados, sobrecarga de operadores, supertraits
+    
+    Topics / Temas:
+    - Associated types / Tipos asociados
+    - Operator overloading / Sobrecarga de operadores
+    - Supertraits / Supertraits
+    - Trait disambiguation / Desambiguación de traits
+
+33. MACROS / MACROS
+    ----------------
+    EN: Declarative macros, procedural macros
+    ES: Macros declarativos, macros procedimentales
+    
+    Topics / Temas:
+    - macro_rules! / macro_rules!
+    - Declarative macros / Macros declarativos
+    - Procedural macros / Macros procedimentales
+    - Custom derive / Derive personalizado
+
+==============================================================================
+                         PART 13: REAL-WORLD PROJECTS
+                        PARTE 13: PROYECTOS DEL MUNDO REAL
+==============================================================================
+
+34. CLI APPLICATIONS / APLICACIONES CLI
+    ------------------------------------
+    EN: Command-line parsing, file I/O, error handling in practice
+    ES: Análisis de línea de comandos, E/S de archivos, manejo de errores
+    
+    Topics / Temas:
+    - clap crate for CLI parsing / Crate clap para análisis CLI
+    - File and directory operations / Operaciones de archivos y directorios
+    - Environment variables / Variables de entorno
+    - Error handling best practices / Mejores prácticas de manejo de errores
+
+35. WEB DEVELOPMENT / DESARROLLO WEB
+    --------------------------------
+    EN: HTTP servers, frameworks (Axum, Actix), JSON handling
+    ES: Servidores HTTP, frameworks (Axum, Actix), manejo de JSON
+    
+    Topics / Temas:
+    - HTTP fundamentals / Fundamentos HTTP
+    - Web frameworks / Frameworks web
+    - JSON serialization/deserialization / Serialización/deserialización JSON
+    - Database integration / Integración de bases de datos
+
+36. SYSTEMS PROGRAMMING / PROGRAMACIÓN DE SISTEMAS
+    -----------------------------------------------
+    EN: Performance optimization, memory management, interfacing with C
+    ES: Optimización de rendimiento, gestión de memoria, interfaz con C
+    
+    Topics / Temas:
+    - Performance profiling / Perfilado de rendimiento
+    - Memory layout control / Control de diseño de memoria
+    - C interoperability / Interoperabilidad con C
+    - System calls / Llamadas al sistema
+
+==============================================================================
+                            APPENDICES / APÉNDICES
+==============================================================================
+
+A. RUST ECOSYSTEM / ECOSISTEMA RUST
+   ---------------------------------
+   EN: Popular crates, tools, community resources
+   ES: Crates populares, herramientas, recursos de la comunidad
+   
+   - crates.io
+   - Popular crates / Crates populares
+   - Development tools / Herramientas de desarrollo
+   - Community and resources / Comunidad y recursos
+
+B. BEST PRACTICES / MEJORES PRÁCTICAS
+   -----------------------------------
+   EN: Code style, documentation, performance tips
+   ES: Estilo de código, documentación, consejos de rendimiento
+   
+   - Rust style guide / Guía de estilo de Rust
+   - Documentation guidelines / Pautas de documentación
+   - Performance considerations / Consideraciones de rendimiento
+   - Security best practices / Mejores prácticas de seguridad
+
+C. TROUBLESHOOTING / SOLUCIÓN DE PROBLEMAS
+   ----------------------------------------
+   EN: Common errors, debugging techniques, helpful resources
+   ES: Errores comunes, técnicas de depuración, recursos útiles
+   
+   - Common compilation errors / Errores de compilación comunes
+   - Debugging strategies / Estrategias de depuración
+   - Useful compiler flags / Flags útiles del compilador
+   - Community help resources / Recursos de ayuda de la comunidad
+
+==============================================================================
+                             LEARNING PATH
+                            RUTA DE APRENDIZAJE
+==============================================================================
+
+BEGINNER PATH (Parts 1-3) / RUTA PRINCIPIANTE (Partes 1-3):
+- Focus on fundamentals and ownership system
+- Enfoque en fundamentos y sistema de propiedad
+- Estimated time: 4-6 weeks / Tiempo estimado: 4-6 semanas
+
+INTERMEDIATE PATH (Parts 4-8) / RUTA INTERMEDIA (Partes 4-8):
+- Modules, collections, error handling, generics, testing
+- Módulos, colecciones, manejo de errores, genéricos, pruebas
+- Estimated time: 6-8 weeks / Tiempo estimado: 6-8 semanas
+
+ADVANCED PATH (Parts 9-12) / RUTA AVANZADA (Partes 9-12):
+- Advanced features and patterns
+- Características y patrones avanzados
+- Estimated time: 4-6 weeks / Tiempo estimado: 4-6 semanas
+
+PROJECT PHASE (Part 13) / FASE DE PROYECTOS (Parte 13):
+- Real-world application development
+- Desarrollo de aplicaciones del mundo real
+- Estimated time: 6-12 weeks / Tiempo estimado: 6-12 semanas
+
+==============================================================================
+                            ASSESSMENT CRITERIA
+                           CRITERIOS DE EVALUACIÓN
+==============================================================================
+
+Each topic should include / Cada tema debe incluir:
+- Theory explanation / Explicación teórica
+- Code examples / Ejemplos de código
+- Hands-on exercises / Ejercicios prácticos
+- Common pitfalls / Errores comunes
+- Best practices / Mejores prácticas
+- Further reading / Lectura adicional
+
+==============================================================================
+                              END OF CURRICULUM
+                             FIN DEL PLAN DE ESTUDIOS
+==============================================================================
+
+This curriculum is designed to be flexible and can be adapted based on:
+- Student background / Antecedentes del estudiante
+- Learning pace / Ritmo de aprendizaje
+- Specific interests / Intereses específicos
+- Time constraints / Restricciones de tiempo
+
+Este plan de estudios está diseñado para ser flexible y puede adaptarse según:
+- Los antecedentes del estudiante
+- El ritmo de aprendizaje
+- Los intereses específicos
+- Las restricciones de tiempo
+
+For updates and community contributions, visit:
+Para actualizaciones y contribuciones de la comunidad, visite:
+https://github.com/[your-username]/RUST-LEARN-COURSE
