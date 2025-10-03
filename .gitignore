@@ -1,0 +1,56 @@
+# Rust build artifacts
+target/
+Cargo.lock
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.bak
+*.orig
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dependency directories (if using other tools)
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Temporary folders
+tmp/
+temp/
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# Personal notes (optional - remove if you want to include personal notes)
+# notes.md
+# personal/
