@@ -1,0 +1,15 @@
+[package]
+name = "xyz_example2"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# For simple encryption examples (Caesar cipher, etc.)
+# Para ejemplos de cifrado simple (cifrado César, etc.)
+
+# For more advanced encryption (AES) - uncomment if needed
+# Para cifrado más avanzado (AES) - descomenta si es necesario
+# aes = "0.8"
+# cbc = "0.1"
+# hex = "0.4"
+# rand = "0.8"
