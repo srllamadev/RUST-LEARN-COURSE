@@ -1,3 +1,18 @@
+###How to execute
+
+```bash
+rustc 02_type_of_numbers.rs
+./02_type_of_numbers
+```
+
+## 🌍 Available Languages
+
+This documentation is also available in other languages:
+
+- [Spanish](README[Spanish].md)
+- [Hindi](README[Hindi].md)
+- [Chinese](README[Chinese].md)
+
 # Rust Number Types
 
 This lesson demonstrates the different number types available in Rust, including integers and floating-point numbers.
