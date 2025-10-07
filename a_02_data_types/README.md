@@ -1,8 +1,11 @@
 ## How to execute
+
+Go to the project directory and run:
+
 ```bash
-rustc 02_type_of_numbers.rs
-./02_type_of_numbers
+cargo run
 ```
+
 
 ## Available Languages
 
@@ -20,17 +23,17 @@ This documentation is also available in other languages:
 
 This lesson introduces Rust's data types and fundamental concepts of ownership and borrowing. Understanding these concepts is crucial for writing safe and efficient Rust code.
 
-## 📋 Table of Contents
+## Table of Contents
 
-- [🔢 Scalar Types](#-scalar-types)
-- [📦 Compound Types](#-compound-types)
-- [🏠 Ownership](#-ownership)
-- [🔗 References and Borrowing](#-references-and-borrowing)
+- [🦙 Scalar Types](#-scalar-types)
+- [🦙 Compound Types](#-compound-types)
+- [🦙 Ownership](#-ownership)
+- [🦙 References and Borrowing](#-references-and-borrowing)
 - [🚀 Running the Example](#-running-the-example)
-- [📚 Key Concepts](#-key-concepts)
-- [🧪 Exercises](#-exercises)
+- [🦙 Key Concepts](#-key-concepts)
+- [🦙 Exercises](#-exercises)
 
-## 🔢 Scalar Types
+## 🦙 Scalar Types
 
 Scalar types represent single values. Rust has four primary scalar types: integers, floating-point numbers, booleans, and characters.
 
@@ -101,7 +104,7 @@ fn print_slice(slice: &[i32]) {
 print_slice(&arr);  // Pass array as slice
 ```
 
-## 🏠 Ownership
+## 🦙 Ownership
 
 Ownership is Rust's most unique feature and enables memory safety without a garbage collector.
 
@@ -132,7 +135,7 @@ let s2 = s1;                     // s1 is moved to s2
 // println!("{}", s1);           // This would not compile
 ```
 
-## 🔗 References and Borrowing
+## 🦙 References and Borrowing
 
 References allow you to access data without taking ownership.
 
@@ -201,7 +204,7 @@ I borrowed: world
 s2 after borrow: world
 ```
 
-## 📚 Key Concepts
+## 🦙 Key Concepts
 
 ### Memory Management
 
@@ -228,7 +231,7 @@ s2 after borrow: world
 - **Move types** (String, Vec): Transfer ownership when possible
 - **Borrow types**: Use references to avoid unnecessary copying
 
-## 🧪 Exercises
+## 🌚 Exercises
 
 1. **Type Exploration**: Experiment with different scalar types and their ranges
 2. **Tuple Operations**: Create tuples with different combinations of types and practice destructuring
@@ -237,31 +240,17 @@ s2 after borrow: world
 5. **Reference Practice**: Create functions that accept mutable and immutable references
 6. **Slice Operations**: Practice creating slices from arrays and passing them to functions
 
-## 🔍 Further Reading
+## Further Reading
 
 - [Rust Book - Data Types](https://doc.rust-lang.org/book/ch03-02-data-types.html)
 - [Rust Book - Ownership](https://doc.rust-lang.org/book/ch04-01-what-is-ownership.html)
 - [Rust Book - References and Borrowing](https://doc.rust-lang.org/book/ch04-02-references-and-borrowing.html)
 - [Rust Reference - Types](https://doc.rust-lang.org/reference/types.html)
 
-## 📝 Notes
+## Notes
 
 - **Ownership** is Rust's secret weapon for memory safety
 - **Borrowing** allows efficient code without sacrificing safety
 - **Types** determine whether values are copied or moved
 - Practice these concepts regularly - they're fundamental to Rust programming
-
----
-
-## 🌍 Available Languages
-
-This documentation is also available in other languages:
-
-- [Spanish](docs/README[Spanish].md)
-- [Hindi](docs/README[Hindi].md)
-- [Chinese](docs/README[Chinese].md)
-
-## 📚 Course Information
-
-This lesson is part of the Rust Learning Course
 
