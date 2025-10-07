@@ -7,7 +7,7 @@ rustc 02_type_of_numbers.rs
 
 ## Tenemos los siguientes idiomas disponibles
 
-- [Spanish](README[Spanish].md)
+- [Chinese](README[Chinese].md)
 - [Hindi](README[Hindi].md)
 - [English](../README.md)
 
