@@ -1,3 +1,16 @@
+## Como ejecutar
+
+```bash
+rustc 02_type_of_numbers.rs
+./02_type_of_numbers
+```
+
+## Tenemos los siguientes idiomas disponibles
+
+- [Spanish](README[Spanish].md)
+- [Hindi](README[Hindi].md)
+- [English](../README.md)
+
 # Tipos de Números en Rust
 
 Esta lección demuestra los diferentes tipos de números disponibles en Rust, incluyendo enteros y números de punto flotante.
