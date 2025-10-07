@@ -1,0 +1,9 @@
+https://doc.rust-lang.org/std/index.html#the-rust-standard-library
+
+Primitive Types
+
+-----
+
+alloc MODULES
+
+https://doc.rust-lang.org/std/alloc/index.html
