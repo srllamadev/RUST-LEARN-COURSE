@@ -1,17 +1,17 @@
-###How to execute
+## How to execute
 
 ```bash
 rustc 02_type_of_numbers.rs
 ./02_type_of_numbers
 ```
 
-## 🌍 Available Languages
+## Available Languages
 
 This documentation is also available in other languages:
 
-- [Spanish](README[Spanish].md)
-- [Hindi](README[Hindi].md)
-- [Chinese](README[Chinese].md)
+- [Spanish](docs/README[Spanish].md)
+- [Hindi](docs/README[Hindi].md)
+- [Chinese](docs/README[Chinese].md)
 
 # Rust Number Types
 
