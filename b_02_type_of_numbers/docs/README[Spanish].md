@@ -7,8 +7,12 @@ rustc 02_type_of_numbers.rs
 
 ## Tenemos los siguientes idiomas disponibles
 
-- [Chinese](README[Chinese].md)
-- [Hindi](README[Hindi].md)
+- [Chinese](docs/README[Chinese].md)
+- [Hindi](docs/README[French].md)
+- [Spanish](docs/README[German].md)
+- [Spanish](docs/README[Hindi].md)
+- [Spanish](docs/README[Portuguese].md)
+- [Spanish](docs/README[Russian].md)
 - [English](../README.md)
 
 # Tipos de Números en Rust
