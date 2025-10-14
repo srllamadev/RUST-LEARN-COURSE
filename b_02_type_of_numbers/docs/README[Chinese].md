@@ -9,8 +9,12 @@ rustc 02_type_of_numbers.rs
 
 本文档也提供其他语言版本：
 
-- [Spanish](README[Spanish].md)
-- [Hindi](README[Hindi].md)
+- [Hindi](docs/README[French].md)
+- [Spanish](docs/README[German].md)
+- [Spanish](docs/README[Hindi].md)
+- [Spanish](docs/README[Portuguese].md)
+- [Spanish](docs/README[Russian].md)
+- [Spanish](docs/README[Spanish].md)
 - [English](../README.md)
 
 # Rust 数字类型
