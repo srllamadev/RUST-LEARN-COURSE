@@ -1,6 +1,6 @@
 [package]
-name = "a_02_data_types"
+name = "b_01_data_types"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 
 [dependencies]
