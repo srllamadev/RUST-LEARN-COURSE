@@ -9,9 +9,13 @@ rustc 02_type_of_numbers.rs
 
 This documentation is also available in other languages:
 
-- [Spanish](docs/README[Spanish].md)
-- [Hindi](docs/README[Hindi].md)
 - [Chinese](docs/README[Chinese].md)
+- [Hindi](docs/README[French].md)
+- [Spanish](docs/README[German].md)
+- [Spanish](docs/README[Hindi].md)
+- [Spanish](docs/README[Portuguese].md)
+- [Spanish](docs/README[Russian].md)
+- [Spanish](docs/README[Spanish].md)
 
 # Rust Number Types
 
