@@ -1,0 +1,6 @@
+[package]
+name = "a_00_create_project_CARGO"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
