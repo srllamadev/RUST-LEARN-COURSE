@@ -15,7 +15,7 @@ rustc NameFile.rs
 ```
 ## WHERE TO PUT THE CODE
 
-### Find the file: **NameFile.rs** and push your code
+### Find the file: **NameFile.rs** and write your Rust code inside.
 
 > [!TIP]
 > Open **NameFile.rs** inside the folder **project_RUSTC**, add your code, and then execute the commands above.
