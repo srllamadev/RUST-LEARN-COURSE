@@ -4,17 +4,18 @@
 > For MacOS and Linux, use the terminal. For Windows, use PowerShell or Command Prompt.
 
 ## CREATE PROJECT
-```
+```bash
 cargo new a_00_create_project_CARGO
+```
 ## HOW TO EXECUTE
 ### After creating the project, you will see a folder with the project name.
-```
+
 Then, navigate into the project folder:
 ```bash
 cd a_00_create_project_CARGO
 ```
 ### RUN 🚀
-```
+```bash
 cargo run
 ```
 ## WHERE PUSH THE CODE
@@ -24,7 +25,7 @@ cargo run
 > [!TIP]
 > Find the file: **main.rs** inside src
 
-```
+```bash
 a_00_create_project_CARGO/
 ├── Cargo.toml
 ├── src/
