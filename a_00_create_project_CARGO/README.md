@@ -1,5 +1,8 @@
 # HOW TO CREATE THE PROJECT WITH CARGO
 
+> [!IMPORTANT]
+> For MacOS and Linux, use the terminal. For Windows, use PowerShell or Command Prompt.
+
 ## CREATE PROJECT
 ```
 cargo new a_00_create_project_CARGO
