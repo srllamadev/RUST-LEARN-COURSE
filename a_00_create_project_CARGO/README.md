@@ -6,9 +6,14 @@
 ## CREATE PROJECT
 ```
 cargo new a_00_create_project_CARGO
-```
-
 ## HOW TO EXECUTE
+### After creating the project, you will see a folder with the project name.
+```
+Then, navigate into the project folder:
+```bash
+cd a_00_create_project_CARGO
+```
+### RUN 🚀
 ```
 cargo run
 ```
