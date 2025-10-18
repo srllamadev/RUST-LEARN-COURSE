@@ -1,5 +1,7 @@
 # 🌟 Learn **Rust** from Scratch with Fun & Practical Examples UwU
 
+![Imagen](:/xyz_Assets/img/wRustBook.png)
+
 Welcome to the **ultimate repository to learn Rust**!
 If you’ve ever wanted to write **safe, fast, and modern code**, Rust is your language.
 Rust powers **blockchain**, **Web3**, **embedded systems**, **AI**, and much more.
