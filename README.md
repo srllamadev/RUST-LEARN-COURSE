@@ -1,5 +1,7 @@
 # 🦀 Learn Rust from Scratch: A Comprehensive Guide
 
+![Logo del proyecto](./xyz_Assets/img/wRustBook.png)
+
 Welcome to the **official Rust learning repository**! This resource is designed to help you master Rust programming through structured, practical examples and clear explanations. Rust is a systems programming language that empowers developers to build reliable and efficient software, with applications in blockchain, Web3, embedded systems, AI, and beyond.
 
 ## Repository Overview
