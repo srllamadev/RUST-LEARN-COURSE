@@ -58,7 +58,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 ---
 
-## 📚 Curriculum Overview
+## Curriculum Overview
 
 ### 1. **Rust Fundamentals**
 - Memory safety principles
@@ -119,7 +119,7 @@ flowchart TD
 
 ---
 
-## 🎯 Key Benefits
+## Key Benefits
 
 - **Industry-relevant skills** for high-performance computing
 - **Memory safety** without garbage collection
@@ -138,7 +138,7 @@ flowchart TD
 
 ---
 
-## 📖 Repository Structure
+## Repository Structure
 
 ```
 learn-rust/
@@ -167,7 +167,7 @@ Complete the exercises in each section to reinforce your understanding and apply
 
 ---
 
-## 🤝 Contribution
+## Contribution
 
 This repository welcomes contributions! Please see our contribution guidelines for:
 - Reporting issues
